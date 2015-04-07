@@ -1,0 +1,11 @@
+/* Layout.scss */
+
+@media screen and (min-width: $mobile) and (max-width: $desktop) {
+    .row-no-gutter [class^="col-"] {
+        margin: 0;
+    }
+    .gallery .col-3 {
+        width: 50%;
+        margin-bottom: 0;
+    }
+}
